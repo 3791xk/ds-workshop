@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 
     for (int i = 1; i < argc; ++i) {
         int temp = std::atoi(argv[i]);
-        intList.push_back(temp);
+        intList.push_back(temp * 2);
     }
 
     std::list<int>::iterator it = intList.begin();
