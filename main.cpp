@@ -1,7 +1,7 @@
 #include <iostream>
 #include <list>
-#include <iterator> 
-#include <cstdlib>  
+#include <iterator>
+#include <cstdlib>
 
 int main(int argc, char* argv[]) {
 
@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 
     std::list<int>::iterator it = intList.begin();
     while (it != intList.end()) {
-        std::cout << *it << std::endl;
+        std::cout << 2 * (*it) << std::endl;
         it++;
     }
 
